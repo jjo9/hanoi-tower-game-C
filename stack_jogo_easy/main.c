@@ -1,3 +1,4 @@
+#stolen by the underpantsrevengeman
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -79,7 +80,7 @@ void FS_printStacktable(apStack *apS1,apStack *apS2,apStack *apS3,componente hol
 int main(int argc, char *argv[]) {
 	int i,num_to_print,level,num,moves;
 	componente holder;
-	holder=-1;// -1 n„o tem block (tem que fazer pop) // 1~8 tem que fazer push (pois tem o bloco com o numero correspondente)
+	holder=-1;// -1 n√£o tem block (tem que fazer pop) // 1~8 tem que fazer push (pois tem o bloco com o numero correspondente)
 	apStack s1,s2,s3;/*stacks*/
 	char u;
 	char string[30],c;
